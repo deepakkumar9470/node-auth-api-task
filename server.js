@@ -20,7 +20,7 @@ connectDB()
 
 
 app.get('/', (req,res)=>{
-    res.send('Success..')
+    res.send(`App running on PORT ${PORT}`)
 })
 
 app.listen(PORT, ()=>{
